@@ -66,7 +66,7 @@ class presents {
 
 
         Present[2] = new present();
-        Present[2].setName("chocolate");
+        Present[2].setName("Chocolate");
         Present[2].setColor("Black");
         Present[2].setPrice(300);
         Present[2].setWeight(30);
@@ -79,7 +79,7 @@ class presents {
         sumWeight = sumWeight + Present[0].getWeight() + Present[1].getWeight() + Present[2].getWeight();
 
 
-        System.out.println("Общая стоимость подарка = " + sumPrice + " Общий вес подарка = " + sumWeight + " В подарке находится = " + Present[0].getName() +", "+Present[1].getName() +"и "+ Present[2].getName());
+        System.out.println("Общая стоимость подарка = " + sumPrice + "," + " Общий вес подарка = " + sumWeight + "," +" В подарке находится = " + Present[0].getName() +", "+Present[1].getName() +" и "+ Present[2].getName()+".");
 
 
 
