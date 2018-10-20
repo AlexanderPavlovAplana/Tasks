@@ -21,8 +21,8 @@ public class Calculator {
             case "/": {
                 try {
                     Calculate.divide();
-                } catch (Exeption mathExeption) {
-                    mathExeption.printStackTrace();
+                } catch (Exeption Exeption) {
+                    Exeption.printStackTrace();
                 }
                 break;
             }
