@@ -16,7 +16,7 @@ import java.util.TreeMap;
 public class Task6 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File("/Users/stuffit/Work/Aplana_Course/Task6/file.txt"));
+        Scanner scanner = new Scanner(new File("~/Task6/file.txt"));
         SortedMap<String, Integer> statistics = new TreeMap<>();
 
         while (scanner.hasNext()) {
